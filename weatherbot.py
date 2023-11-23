@@ -13,7 +13,7 @@ from aiogram import Bot, Dispatcher, executor, types
 import math 
     
     
-API_TOKEN = '1850109354:AAEdYjjm0YOJFvAKJEhP_D0Kqfnt8RtkZ1g'
+API_TOKEN = '6834967506:AAGlDzhzD9eFJEsKKbKlz4CT0LePFqvif_c'
 client = python_weather.Client(format=python_weather.IMPERIAL)
 
  # Configure logging
@@ -31,7 +31,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply(f"Assalomu alaykum.\nOb-havo botiga xush kelibsiz!\n Shahringiz nomini kiriting! ")
+    await message.reply(f"Assalomu alaykum.\nOb-havo botiga xush kelibsiz!\n Shahringiz nomini kiriting!\nagar muammo bolsa bizga xabar qoldiring ")
 
 
 @dp.message_handler()
